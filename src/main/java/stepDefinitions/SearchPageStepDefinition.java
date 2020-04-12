@@ -5,7 +5,8 @@ public class SearchPageStepDefinition {
 	int b,d;
 	
 	public void add(){
-		//System.out.println("added some code");
+		System.out.println("added some code");
 		int a=b+d;
+		System.out.println("Newly some code");
 	}
 }
