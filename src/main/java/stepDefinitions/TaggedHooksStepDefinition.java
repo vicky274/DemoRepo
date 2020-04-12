@@ -8,11 +8,11 @@ import cucumber.api.java.en.When;
 
 public class TaggedHooksStepDefinition {
 	
-	@Before(order=0)
+	/*@Before(order=0)
 	public void setUP(){
 		System.out.println("launch FF");
 		System.out.println("Enter URL for Free CRM APP");
-	}
+	}*/
 
 	@After(order=0)
 	public void tearDown(){
